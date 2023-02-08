@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 470px;
+    background-color: aliceblue;
+    height: 135px;
+    margin-bottom: 0;
+}
+
+
+.ulFooter{
+    justify-content: center;
+    display: grid;
+    margin: 0;
+}
