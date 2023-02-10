@@ -1,5 +1,5 @@
 .footer{
-    margin-top: 470px;
+    margin-top: 43px;
     background-color: aliceblue;
     height: 135px;
     margin-bottom: 0;
@@ -10,4 +10,13 @@
     justify-content: center;
     display: grid;
     margin: 0;
+}
+
+.powered {
+    font-size: 12px;
+    justify-content: right;
+    margin: 0;
+    display: flex;
+    margin-top: 19px;
+    margin-right: 10px;
 }

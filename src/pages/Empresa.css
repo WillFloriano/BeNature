@@ -2,8 +2,8 @@
     display: inline-grid;
 }
 
-label span{
-    padding: 4px;
+label span {
     display: flex;
+    padding: 4px;
     margin-left: 240px;
 }
