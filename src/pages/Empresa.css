@@ -1,0 +1,9 @@
+.empresa {
+    display: inline-grid;
+}
+
+label span{
+    padding: 4px;
+    display: flex;
+    margin-left: 240px;
+}

@@ -1,7 +1,7 @@
 .wp{
     display: flex;
-    justify-content: left;
-    justify-items: left;
-    margin: 0;
-    float: left;
+    justify-content: right;
+    justify-items: right;
+    margin-right: 5px;
+    float: right;
   }
