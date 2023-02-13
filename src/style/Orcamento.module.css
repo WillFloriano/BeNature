@@ -1,0 +1,66 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    padding: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 500px;
+    margin-left: 430px;
+    margin-top: 60px;
+    height: 988px;
+  }
+  
+  form label {
+    display: contents;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  
+  form input{
+    border-radius: 5px;
+    text-align: center;
+    width: 340px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -73px;
+  }
+  
+  form button{
+    border-radius: 5px;
+    width: 50px;
+  }
+
+.empresarial{
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.lblOrcamento{
+
+}
+
+.pessoal{
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.endereco{
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+}
