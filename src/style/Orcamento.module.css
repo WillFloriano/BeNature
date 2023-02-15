@@ -9,7 +9,7 @@ form {
     padding: 100px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.486);
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: #83f3b4;
     width: 500px;
     margin-left: 430px;
     margin-top: 60px;
@@ -34,14 +34,20 @@ form {
   
   form button{
     border-radius: 5px;
-    width: 50px;
+    width: 100px;
+    margin-top: 25px;
+    margin-right: 68px;
+  }
+
+  .formEmp{
+    margin-top: -61px;
   }
 
 .empresarial{
     border-radius: 5px;
     height: 25px;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     width: 150px;
 }
 
@@ -52,15 +58,15 @@ form {
 .pessoal{
     border-radius: 5px;
     height: 25px;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     width: 150px;
 }
 
 .endereco{
     border-radius: 5px;
     height: 25px;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     width: 150px;
 }

@@ -1,6 +1,6 @@
 .footer{
     margin-top: 43px;
-    background-color: aliceblue;
+    background-color: #83f3b4;
     height: 135px;
     margin-bottom: 0;
 }
@@ -10,6 +10,10 @@
     justify-content: center;
     display: grid;
     margin: 0;
+}
+
+ul li{
+    list-style: none;
 }
 
 .powered {

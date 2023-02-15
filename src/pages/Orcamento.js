@@ -33,7 +33,7 @@ function Orcamento() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className={styles.formEmp}>
           <div className={styles.empresarial}>Dados Empresariais</div>
           <label className={styles.lblOrcamento}>
             <input type="text" className="txtRazao" placeholder="Razao Social" value={razao} name="razao" onChange={(e) => setRazao(e.target.value)} ></input>

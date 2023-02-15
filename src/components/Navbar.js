@@ -1,25 +1,35 @@
 import React from 'react'
-import styles from '../style/Navbar.module.css'
+import style from '../style/Navbar.module.css'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
+import Home from '../images/home.gif'
+import Empresa from '../images/empresa.gif'
+import Location from '../images/location.gif'
+import Project from '../images/project.gif'
+import Nature from '../images/nature.gif'
 
 
 function Navbar() {
     return (
         <>
-            <div className={styles.navbar}>
+            <div className={style.navbar}>
                 {/* <Link className="be" to="/" style={{ textDecoration: "none" }}><span>beNATURE</span></Link>
                     <Link className="by" to="/" style={{ textDecoration: "none" }}><span>byNATURE</span></Link> */}
-                <Link className={styles.cabec} to="/" style={{ textDecoration: "none" }}><img src={logo} alt=""></img></Link>
-                <span className={styles.home}>
-                    <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
+                <Link className={style.cabec} to="/" style={{ textDecoration: "none" }}><img src={logo} alt=""></img></Link>
+                <span className={style.home}>
+                    <Link to="/" style={{ textDecoration: 'none', color: 'black' }}><img src={Home} alt="Home"></img></Link>
                 </span>
-                <ul>
-                    <li className="empresa"><Link to="/empresa" style={{ textDecoration: 'none' }}>Empresa</Link></li>
-                    <li className="nature"><Link to="/orcamento" style={{ textDecoration: 'none' }}>Seja Nature</Link></li>
-                    <li className="projeto"><Link to="/projeto" style={{ textDecoration: 'none' }}>Projeto</Link></li>
-                    <li className="loc"><Link to="/localizacao" style={{ textDecoration: 'none' }}>Localização</Link></li>
-                </ul>
+                <div className={style.div}>
+                    {/* <li className={style.empresa}></li>
+                    <li className={style.nature}></li>
+                    <li className={style.projeto}></li>
+                    <li className={style.loc}></li> */}
+                    <Link to="/empresa" style={{ textDecoration: 'none', color: 'black' }}><img src={Empresa} alt="Empresa" /></Link>
+                    <Link to="/orcamento" style={{ textDecoration: 'none', color: 'black' }}><img src={Nature} alt="Vem ser Nature" /></Link>
+                    <Link to="/projeto" style={{ textDecoration: 'none', color: 'black' }}><img src={Project} alt="Projeto" /></Link>
+                    <Link to="/localizacao" style={{ textDecoration: 'none', color: 'black' }}><img src={Location} alt="localizacao" /></Link>
+                </div>
+
             </div>
         </>
     );
