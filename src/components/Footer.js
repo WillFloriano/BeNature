@@ -12,7 +12,7 @@ function Footer() {
                     <li>CNPJ: 000.000.000/0000-00</li>
                     <li>Tel: (11)00000-0000</li>
                 </ul>                
-                    <div className={styles.powered}>Powered by WF Tecnology</div>                
+                    <div className={styles.powered}><b>Powered by WF Tecnology</b></div>                
             </div>
         </>
     );

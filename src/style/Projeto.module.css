@@ -2,3 +2,26 @@ p{
     display: flex;
     justify-content: center;
 }
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.video {
+    max-width: 90%;
+    justify-content: left;
+    display: flex;
+    margin-top: 2px;
+    margin-left: 5px;
+    padding: 0 auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.projeto {
+    display: inline-block;   
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}

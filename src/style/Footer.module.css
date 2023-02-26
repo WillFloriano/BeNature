@@ -14,6 +14,7 @@
 
 ul li{
     list-style: none;
+    margin-top: 20px;
 }
 
 .powered {
@@ -21,6 +22,6 @@ ul li{
     justify-content: right;
     margin: 0;
     display: flex;
-    margin-top: 19px;
+    margin-top: 5px;
     margin-right: 10px;
 }

@@ -1,4 +1,70 @@
 .navbar{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2em 2em;
+    background-color: #83f3b4;
+}
+
+.brand img{
+    display: flex;
+    max-width: 40%;
+    align-items: flex-start;
+}
+
+.links_list{
+    display: flex;
+    list-style: none;
+    max-width: 40%;
+    margin: 0;
+}
+
+.links_list li {
+    margin-right: 1em;
+}
+
+.links_list li a {
+    padding: .4em .6em;
+}
+
+.links_list img {
+    max-width: 50%;
+}
+
+.links_list span {
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
+.active{
+    background-color: #000;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
     background-color: #abf2ca;
     font-size: 15px;
     height: 100px;
@@ -15,6 +81,10 @@
     max-width: 10%;
 }
 
+.empresa{
+    alt: "Empresa";
+}
+
 .home{
     justify-content: left;
     display: flex;
@@ -27,7 +97,7 @@
     float: left;
     display: flex;
     margin: 0;
-    margin-top: -23px;
+    margin-top: 25px;
     margin-left: -10px;
 }
 
@@ -37,7 +107,9 @@
     margin: 0;
     display: flex;
     max-width: 500px;
-    margin-left: 700px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
 }
 
 .cabec img{
@@ -46,8 +118,10 @@
     margin-bottom: 110px;
     justify-items: center;
     align-items: center;
-    margin-right: 400px;
-    margin-top: -58px;
+    margin-left: 52px;
+    margin-top: 64px;
+    position: relative;
+    z-index: 2;
 }
 
 @keyframes blink{
@@ -120,4 +194,4 @@
         padding: 10px 13px 0 !important;
         margin-top: 10px !important;
     }
-}
+} */

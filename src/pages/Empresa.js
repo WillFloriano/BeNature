@@ -16,7 +16,7 @@ function Empresa() {
         <h2>O que fazemos</h2>
           <span>
             - Planejamento e execução de projetos que geram impacto social positivo.</span>
-          <span>- Conciliamos o <i>business</i> tradicional, a consciência e a sustentabilidade.</span>
+          <span>- Conciliamos o business tradicional, a consciência e a sustentabilidade.</span>
           <span>- Executamos projetos que são autossustentáveis.</span>
           <span>- Realizamos projetos a partir de investimentos coletivos.</span>
           <span>- Criamos parcerias, buscando meios de viabilização.</span>
