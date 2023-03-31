@@ -1,72 +1,59 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+  display: grid;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+input {
+  border-radius: 5px;
+  text-align: center;
+  width: 340px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 form {
-    justify-content: center;
-    display: grid;
-    align-items: center;
-    padding: 100px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.486);
-    border-radius: 20px;
-    background-color: #83f3b4;
-    width: 500px;
-    margin-left: 430px;
-    margin-top: 60px;
-    height: 988px;
-  }
-  
-  form label {
-    display: contents;
-    justify-content: center;
-    margin-top: -50px;
-  }
-  
-  form input{
-    border-radius: 5px;
-    text-align: center;
-    width: 340px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: -73px;
-  }
-  
-  form button{
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 25px;
-    margin-right: 68px;
-  }
-
-  .formEmp{
-    margin-top: -61px;
-  }
-
-.empresarial{
-    border-radius: 5px;
-    height: 25px;
-    text-align: left;
-    justify-content: left;
-    width: 150px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.486);
+  border-radius: 20px;
+  background-color: #83f3b4;
+  max-width: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1em;
 }
 
-.lblOrcamento{
+button {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
 
+.empresarial{
+  display: block;
+  margin-top: 2em;
 }
 
 .pessoal{
-    border-radius: 5px;
-    height: 25px;
-    text-align: left;
-    justify-content: left;
-    width: 150px;
+  display: block;
+  margin-top: 2em;
 }
 
 .endereco{
-    border-radius: 5px;
-    height: 25px;
-    text-align: left;
-    justify-content: left;
-    width: 150px;
+  display: block;
+  margin-top: 2em;
+}
+
+.error {
+
+  color: #721c24;
+  background-color: #f8d7da;
+  border-radius: 5px;
+  border: 1px solid #f5c6cb;
 }

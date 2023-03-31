@@ -5,15 +5,15 @@ import Wp from './Wp';
 function Footer() {
     return (
         <>
-            <div className={styles.footer}>
-            <Wp/>
-                <ul className={styles.ulFooter}>
-                    <li>©beNature - byNature 2023 Todos os direitos reservados</li>
-                    <li>CNPJ: 000.000.000/0000-00</li>
-                    <li>Tel: (11)00000-0000</li>
-                </ul>                
-                    <div className={styles.powered}><b>Powered by WF Tecnology</b></div>                
-            </div>
+            <footer className={styles.footer}>
+                <Wp />
+                <div className={styles.spanFooter}>
+                    <span>©beNature - byNature 2023 Todos os direitos reservados</span>
+                    <span>CNPJ: 000.000.000/0000-00</span>
+                    <span>Tel: (11)00000-0000</span>
+                </div>
+
+            </footer>
         </>
     );
 }

@@ -1,27 +1,22 @@
 .footer{
-    margin-top: 43px;
     background-color: #83f3b4;
-    height: 135px;
-    margin-bottom: 0;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
 }
 
-
-.ulFooter{
-    justify-content: center;
-    display: grid;
-    margin: 0;
+ul{
+    background-color: #83f3b4;
 }
 
 ul li{
     list-style: none;
-    margin-top: 20px;
-}
+} 
 
-.powered {
-    font-size: 12px;
-    justify-content: right;
-    margin: 0;
-    display: flex;
-    margin-top: 5px;
-    margin-right: 10px;
+.spanFooter{
+    display: grid!important;
+    margin-top: 20px;
 }
