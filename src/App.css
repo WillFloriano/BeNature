@@ -30,6 +30,11 @@ body{
   color: #61dafb;
 }
 
+.container {
+  min-height: 60vh;
+  margin-bottom: 5em;
+}
+
 
 @keyframes App-logo-spin {
   from {

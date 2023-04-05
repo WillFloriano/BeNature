@@ -5,8 +5,9 @@
 }
 
 
-label span {
+.lblSpan {
     display: flex;
     padding: 4px;
     margin-left: 240px;
+    justify-content: center;
 }

@@ -11,19 +11,21 @@ import Projeto from './pages/Projeto';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home/>} />        
-          <Route exact path="/projeto" element={<Projeto />} />
-          <Route exact path="/empresa" element={<Empresa />} />
-          <Route exact path="/orcamento" element={<Orcamento />} />
-          <Route exact path="/localizacao" element={<Localizacao />} />
-        </Routes>        
-        <Footer />
-      </div>
-    </Router>
+        <div className="container">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/projeto" element={<Projeto />} />
+            <Route exact path="/empresa" element={<Empresa />} />
+            <Route exact path="/orcamento" element={<Orcamento />} />
+            <Route exact path="/localizacao" element={<Localizacao />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </div>
   );
 }
 
